@@ -1,0 +1,24 @@
+{
+    "name": "tailwind_a-z",
+    "version": "1.0.0",
+    "description": "Formation Udemy permettant d'apprendre à maîtriser le framework CSS Tailwind",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npx tailwindcss -i ./css/style.css -o ./dist/style.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NaoDevWeb31/Tailwind_A-Z.git"
+    },
+    "keywords": [],
+    "author": "Naomi Mango",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/NaoDevWeb31/Tailwind_A-Z/issues"
+    },
+    "homepage": "https://github.com/NaoDevWeb31/Tailwind_A-Z#readme",
+    "devDependencies": {
+        "tailwindcss": "^3.0.18"
+    }
+}
