@@ -650,6 +650,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 2.5rem;
 }
 
+.ml-8 {
+  margin-left: 2rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -936,6 +940,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   list-style-type: none;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -1025,6 +1037,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .overflow-auto {
   overflow: auto;
+}
+
+.overflow-scroll {
+  overflow: scroll;
 }
 
 .truncate {
@@ -1412,8 +1428,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: .75rem;
 }
 
+.leading-10 {
+  line-height: 2.5rem;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
 .tracking-tighter {
   letter-spacing: -0.05em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-gray-50 {
@@ -1468,6 +1500,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-purple-400 {
   --tw-text-opacity: 1;
   color: rgb(192 132 252 / var(--tw-text-opacity));
+}
+
+.text-white\/0 {
+  color: rgb(255 255 255 / 0);
+}
+
+.text-black\/0 {
+  color: rgb(0 0 0 / 0);
 }
 
 .text-opacity-0 {
