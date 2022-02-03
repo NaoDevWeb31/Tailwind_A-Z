@@ -603,6 +603,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   float: right;
 }
 
+.float-left {
+  float: left;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -1281,6 +1285,49 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-green-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(20 83 45 / var(--tw-bg-opacity));
+}
+
+.bg-green-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(5 150 105 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(110 231 183 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-600\/30 {
+  background-color: rgb(5 150 105 / 0.3);
+}
+
+.bg-emerald-600\/50 {
+  background-color: rgb(5 150 105 / 0.5);
+}
+
+.bg-emerald-500\/50 {
+  background-color: rgb(16 185 129 / 0.5);
+}
+
+.bg-emerald-700\/50 {
+  background-color: rgb(4 120 87 / 0.5);
+}
+
+.bg-emerald-400\/50 {
+  background-color: rgb(52 211 153 / 0.5);
+}
+
+.bg-emerald-300\/50 {
+  background-color: rgb(110 231 183 / 0.5);
+}
+
+.bg-green-400\/50 {
+  background-color: rgb(74 222 128 / 0.5);
 }
 
 .bg-opacity-0 {
