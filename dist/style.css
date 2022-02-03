@@ -547,8 +547,44 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: -24rem;
 }
 
+.left-20 {
+  left: 5rem;
+}
+
+.-right-20 {
+  right: -5rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.-top-10 {
+  top: -2.5rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-40 {
+  top: 10rem;
+}
+
 .z-0 {
   z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .order-1 {
@@ -1054,6 +1090,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   overflow: auto;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .overflow-scroll {
   overflow: scroll;
 }
@@ -1383,6 +1423,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-repeat: no-repeat;
 }
 
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1391,6 +1436,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .object-bottom {
   -o-object-position: bottom;
      object-position: bottom;
+}
+
+.object-right {
+  -o-object-position: right;
+     object-position: right;
+}
+
+.object-left {
+  -o-object-position: left;
+     object-position: left;
 }
 
 .p-4 {
