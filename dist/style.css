@@ -1751,10 +1751,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-timing-function: linear;
 }
 
-/* body {
-    background: lightblue !important;
-} */
-
 .carre {
   height: 5rem;
   width: 5rem;
@@ -1766,19 +1762,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
-.active\:bg-yellow-400:active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
-}
-
 .active\:bg-red-400:active {
   --tw-bg-opacity: 1;
   background-color: rgb(248 113 113 / var(--tw-bg-opacity));
-}
-
-.dark .dark\:bg-yellow-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {

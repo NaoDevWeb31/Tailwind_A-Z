@@ -1,5 +1,6 @@
 module.exports = {
-    content: ["./*.html", "./pages/*/*.html"],
+    /* Tailwind n'utilise plus PurgeCSS => purge remplacé par content */
+    content: ["./index.html", "./pages/*/*.html"],
     darkMode: "class",
     theme: {
         /* Ne garde uniquement que ces styles dans le projet et efface ceux de Tailwind */
