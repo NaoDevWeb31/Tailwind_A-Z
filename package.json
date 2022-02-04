@@ -19,6 +19,8 @@
     },
     "homepage": "https://github.com/NaoDevWeb31/Tailwind_A-Z#readme",
     "devDependencies": {
+        "autoprefixer": "^10.4.2",
+        "postcss": "^8.4.6",
         "tailwindcss": "^3.0.18"
     }
 }

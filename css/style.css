@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* body {
+    background: lightblue !important;
+} */
+
+.carre {
+    @apply w-20 h-20;
+    background: red;
+}
