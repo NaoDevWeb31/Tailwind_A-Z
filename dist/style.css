@@ -603,8 +603,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column-start: 6;
 }
 
+.col-start-1 {
+  grid-column-start: 1;
+}
+
 .col-end-6 {
   grid-column-end: 6;
+}
+
+.col-end-5 {
+  grid-column-end: 5;
 }
 
 .row-span-4 {
@@ -615,12 +623,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-row: 1 / -1;
 }
 
+.row-span-2 {
+  grid-row: span 2 / span 2;
+}
+
 .row-start-6 {
   grid-row-start: 6;
 }
 
+.row-start-1 {
+  grid-row-start: 1;
+}
+
 .row-end-6 {
   grid-row-end: 6;
+}
+
+.row-end-5 {
+  grid-row-end: 5;
+}
+
+.row-end-2 {
+  grid-row-end: 2;
+}
+
+.row-end-3 {
+  grid-row-end: 3;
+}
+
+.row-end-4 {
+  grid-row-end: 4;
 }
 
 .float-right {
@@ -984,12 +1016,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-template-columns: none;
 }
 
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
 .grid-rows-1 {
   grid-template-rows: repeat(1, minmax(0, 1fr));
 }
 
 .grid-rows-none {
   grid-template-rows: none;
+}
+
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.grid-rows-5 {
+  grid-template-rows: repeat(5, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1034,6 +1086,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-0 {
   gap: 0px;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-x-0 {
@@ -1710,4 +1766,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .ease-linear {
   transition-timing-function: linear;
+}
+
+@media (min-width: 768px) {
+  .md\:row-span-2 {
+    grid-row: span 2 / span 2;
+  }
+
+  .md\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-6 {
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+  }
 }
