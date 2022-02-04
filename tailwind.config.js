@@ -1,5 +1,6 @@
 module.exports = {
     content: ["./*.html", "./pages/*/*.html"],
+    darkMode: "media",
     theme: {
         /* Ne garde uniquement que ces styles dans le projet et efface ceux de Tailwind */
         // colors: {

@@ -893,6 +893,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 8rem;
 }
 
+.w-56 {
+  width: 14rem;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -1057,6 +1061,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .justify-evenly {
@@ -1751,6 +1759,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 5rem;
   width: 5rem;
   background: red;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-yellow-400 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+  }
 }
 
 @media (min-width: 640px) {
