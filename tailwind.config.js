@@ -18,6 +18,7 @@ module.exports = {
             },
             screens: {
                 customRes: "1000px",
+                xs: "425px"
             },
         },
     },
