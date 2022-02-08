@@ -1,7 +1,12 @@
 module.exports = {
     content: ["./index.html"],
     theme: {
-        extend: {},
+        extend: {
+            minHeight: {
+                500: "500px",
+                650: "650px",
+            },
+        },
     },
     plugins: [],
 };
