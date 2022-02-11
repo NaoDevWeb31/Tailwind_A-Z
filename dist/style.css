@@ -1571,13 +1571,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2rem;
 }
 
-.text-8xl {
-  font-size: 6rem;
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -1596,8 +1596,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.5rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 
@@ -1948,5 +1948,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 425px) {
   .xs\:w-96 {
     width: 24rem;
+  }
+
+  .xs\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
