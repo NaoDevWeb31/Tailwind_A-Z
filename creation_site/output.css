@@ -493,6 +493,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
+.mx-7 {
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+}
+
 .ml-4 {
   margin-left: 1rem;
 }
@@ -561,6 +566,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.25rem;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .min-h-500 {
   min-height: 500px;
 }
@@ -609,6 +618,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 28rem;
 }
 
+.max-w-4xl {
+  max-width: 56rem;
+}
+
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -645,6 +658,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden {
@@ -761,6 +780,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .pt-6 {
@@ -936,6 +960,26 @@ Ensure the default browser behavior of the `hidden` attribute.
         linear-gradient(90deg, hsl(256, 7%, 84%), hsl(256, 7%, 84%));
 }
 
+.divider-bg {
+  background-image: repeating-linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.04),
+            rgba(0, 0, 0, 0.08),
+            rgba(0, 0, 0, 0.05),
+            rgba(0, 0, 0, 0.04),
+            rgba(0, 0, 0, 0.01),
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.09),
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.03),
+            transparent,
+            rgba(0, 0, 0, 0.07),
+            rgba(0, 0, 0, 0.03),
+            rgba(0, 0, 0, 0.06) 4px
+        ),
+        linear-gradient(90deg, rgb(193, 255, 253), rgb(164, 186, 249));
+}
+
 .hover\:bg-gray-50:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
@@ -960,6 +1004,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 1rem;
   }
 
+  .sm\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
   .sm\:w-56 {
     width: 14rem;
   }
@@ -982,6 +1030,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .sm\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .sm\:pb-24 {
