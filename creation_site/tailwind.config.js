@@ -6,6 +6,9 @@ module.exports = {
                 500: "500px",
                 650: "650px",
             },
+            screens: {
+                mobile: { max: "350px" },
+            },
         },
     },
     plugins: [],
